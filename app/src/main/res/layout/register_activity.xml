@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/register"
+    tools:context=".register">
+
+    <TextView
+        android:id="@+id/pleaseregister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="140dp"
+        android:text="Silahkan isi data diri anda !"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/etNokk"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pleaseregister"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="56dp"
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:drawablePadding="24dp"
+        android:hint="No.KK" />
+    <EditText
+        android:id="@+id/etNIK"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pleaseregister"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="78dp"
+        android:layout_marginEnd="56dp"
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:drawablePadding="24dp"
+        android:hint="Nik" />
+
+    <EditText
+        android:id="@+id/etNama"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pleaseregister"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="56dp"
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:drawablePadding="24dp"
+        android:hint="Nama Lengkap" />
+    <EditText
+        android:id="@+id/etNowa"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pleaseregister"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="178dp"
+        android:layout_marginEnd="56dp"
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:drawablePadding="24dp"
+        android:hint="No.WhatsApp" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pleaseregister"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="228dp"
+        android:layout_marginEnd="56dp"
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:drawablePadding="24dp"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pleaseregister"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="278dp"
+        android:layout_marginEnd="55dp"
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:drawablePadding="24dp"
+        android:inputType="textPassword"
+        android:hint="Password" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pleaseregister"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="351dp"
+        android:layout_marginEnd="48dp"
+        android:background="#4875B7"
+        android:backgroundTint="#4875B7"
+        android:text="MASUK"
+        app:cornerRadius="7dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="98dp"
+        android:layout_height="97dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="127dp"
+        android:textAlignment="center"
+        app:srcCompat="@drawable/gambar" />
+</RelativeLayout>
